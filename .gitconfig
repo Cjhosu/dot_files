@@ -1,0 +1,30 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Caleb Howard
+	email = choward@covermymeds.com
+[alias]
+	co = checkout
+	st = status
+	gdif = diff
+[apply]
+	whitespace = nowarn
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+    current = cyan
+    local = yellow
+    remote = cyan bold
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = cyan
+    changed = yellow
+    untracked = red
+[core]
+  excludesfile = /Users/choward/.gitignore_global
