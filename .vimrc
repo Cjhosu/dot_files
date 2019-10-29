@@ -1,4 +1,4 @@
-execute pathogen#infect()  
+execute pathogen#infect()
 syntax on
 filetype plugin indent on
 map <space><space> :NERDTree<CR>
@@ -37,7 +37,7 @@ function! DoWindowSwap()
     "Switch to dest and shuffle source->dest
     exe curNum . "wincmd w"
     "Hide and open so that we aren't prompted and keep history
-    exe 'hide buf' markedBuf 
+    exe 'hide buf' markedBuf
 endfunction
 
 nmap <silent> <leader>mw :call MarkWindowSwap()<CR>
